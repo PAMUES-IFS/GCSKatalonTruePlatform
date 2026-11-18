@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Open the customer list, enter customer details, select options, and save the customer record.</description>
    <name>TC2-Create a customer record in IFS Cloud</name>
-   <tag></tag>
+   <tag>newCustomer</tag>
    <integratedEntity>
       <productName>TESTOPS</productName>
       <properties>
