@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open the customer list, enter customer details, select options, and save the customer record.</description>
+   <name>TC2-Create a customer record in IFS Cloud</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>9e1145fd-aac5-4202-81d5-4b2a4a276801</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cea08053-04a8-46c2-a835-26d84557c0c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>296aaaa9-a278-45d2-9660-180d79dad163</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3fbbcf4c-3dd7-410d-a417-737e45446f1b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c17d66e8-5902-43ff-b0a4-c7d32763e97a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77428f1b-37eb-4ac5-bd4f-9478f76e6259</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5bc347e8-edfd-4275-8ae0-eea79223c1d5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9be8e8e3-9355-42ef-8e89-008c501ead8d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6bbb4314-f436-4bf0-af7c-7a8e73f1a07b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edecb8dd-a38e-405b-9e6e-66059de97800</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a63c86d-7002-4ec6-a882-c18178a78877</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6b42edc-5434-49d0-9ef3-1183ac23a1e2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b1463c23-8b09-4885-b666-30c28ff71774</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bfe9859a-df8a-4ea3-90ed-0e6ee0544dfc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d13cecf2-6c80-4aff-90f9-96902123c080</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>011cd3ab-c69c-417e-9841-2b3b1cdbf3a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db5d1c10-cb1b-403c-abfa-ee8a7ee2eb74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'TEST CUSTOMER 2'</defaultValue>
+      <description>Step 8: Enter input value in input customerName (customer) - (Input data variable)</description>
+      <id>296aaaa9-a278-45d2-9660-180d79dad163</id>
+      <masked>false</masked>
+      <name>input_customerName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Customer 2'</defaultValue>
+      <description>Step 10: Enter input value in input customerName (name2) - (Input data variable)</description>
+      <id>3fbbcf4c-3dd7-410d-a417-737e45446f1b</id>
+      <masked>false</masked>
+      <name>input_customerName_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Customer'</defaultValue>
+      <description>Step 8: Enter input value in input customerName (customer) - (Dynamic locator variable)</description>
+      <id>c17d66e8-5902-43ff-b0a4-c7d32763e97a</id>
+      <masked>false</masked>
+      <name>input_customerName_InternalLabel</name>
+   </variable>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description>Step 9: Click on input customerName (name) - (Dynamic locator variable)</description>
+      <id>77428f1b-37eb-4ac5-bd4f-9478f76e6259</id>
+      <masked>false</masked>
+      <name>input_customerName_InternalLabel_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Name'</defaultValue>
+      <description>Step 10: Enter input value in input customerName (name2) - (Dynamic locator variable)</description>
+      <id>5bc347e8-edfd-4275-8ae0-eea79223c1d5</id>
+      <masked>false</masked>
+      <name>input_customerName_InternalLabel_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'.focused'</defaultValue>
+      <description>Step 8: Enter input value in input customerName (customer) - (Dynamic locator variable)</description>
+      <id>9be8e8e3-9355-42ef-8e89-008c501ead8d</id>
+      <masked>false</masked>
+      <name>input_customerName_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;ng-tns-c1572948887-1477\\ list-field\\ ifs-field\\ ifs-field-hover\\ compact\\ edit-mode\\ editable\\ ng-untouched\\ ng-pristine\\ ng-valid\\ ng-star-inserted&quot;]'</defaultValue>
+      <description>Step 9: Click on input customerName (name) - (Dynamic locator variable)</description>
+      <id>6bbb4314-f436-4bf0-af7c-7a8e73f1a07b</id>
+      <masked>false</masked>
+      <name>input_customerName_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'.focused'</defaultValue>
+      <description>Step 10: Enter input value in input customerName (name2) - (Dynamic locator variable)</description>
+      <id>edecb8dd-a38e-405b-9e6e-66059de97800</id>
+      <masked>false</masked>
+      <name>input_customerName_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'customers'</defaultValue>
+      <description>Step 5: Enter input value in input findPage - (Input data variable)</description>
+      <id>8a63c86d-7002-4ec6-a882-c18178a78877</id>
+      <masked>false</masked>
+      <name>input_findPage</name>
+   </variable>
+   <variable>
+      <defaultValue>'English'</defaultValue>
+      <description>Step 12: Click on item english (english) - (Dynamic locator variable)</description>
+      <id>b6b42edc-5434-49d0-9ef3-1183ac23a1e2</id>
+      <masked>false</masked>
+      <name>item_english_InternalRoleOptionName</name>
+   </variable>
+   <variable>
+      <defaultValue>'UNITED STATES OF AME'</defaultValue>
+      <description>Step 14: Click on item english (unitedStatesOfAmerica) - (Dynamic locator variable)</description>
+      <id>b1463c23-8b09-4885-b666-30c28ff71774</id>
+      <masked>false</masked>
+      <name>item_english_InternalRoleOptionName_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Customer'</defaultValue>
+      <description>Step 16: Click on item english (customer) - (Dynamic locator variable)</description>
+      <id>bfe9859a-df8a-4ea3-90ed-0e6ee0544dfc</id>
+      <masked>false</masked>
+      <name>item_english_InternalRoleOptionName_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[role=&quot;listbox&quot;] > li:nth-of-type(3)'</defaultValue>
+      <description>Step 12: Click on item english (english) - (Dynamic locator variable)</description>
+      <id>d13cecf2-6c80-4aff-90f9-96902123c080</id>
+      <masked>false</masked>
+      <name>item_english_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[role=&quot;listbox&quot;] > li:nth-of-type(2)'</defaultValue>
+      <description>Step 14: Click on item english (unitedStatesOfAmerica) - (Dynamic locator variable)</description>
+      <id>011cd3ab-c69c-417e-9841-2b3b1cdbf3a8</id>
+      <masked>false</masked>
+      <name>item_english_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[role=&quot;listbox&quot;] > li:nth-of-type(1)'</defaultValue>
+      <description>Step 16: Click on item english (customer) - (Dynamic locator variable)</description>
+      <id>db5d1c10-cb1b-403c-abfa-ee8a7ee2eb74</id>
+      <masked>false</masked>
+      <name>item_english_css_value_2</name>
+   </variable>
+</TestCaseEntity>
